@@ -46,7 +46,7 @@ public class Principal extends FragmentActivity implements LocationListener {
     public String latitude;
     public String longitude;
 	public float precisao;
-    public static Location loc;
+    public static Location loc = null;
 
     public BancoDados bd;
 
@@ -176,8 +176,8 @@ public class Principal extends FragmentActivity implements LocationListener {
     protected void onStart() {
         super.onStart();
 
-        //iniciaLocation();
         requestLocationPermission();
+        iniciaLocation();
     }
 
     @Override
@@ -185,7 +185,7 @@ public class Principal extends FragmentActivity implements LocationListener {
         //interrompe o Location Manager
         lm.removeUpdates(this);
 
-        Log.w("PROVEDOR", "Provedor " + provider + " parado!");
+        Log.w("LOCATION", "Provedor " + provider + " parado!");
         super.onStop();
     }
 
@@ -367,22 +367,21 @@ public class Principal extends FragmentActivity implements LocationListener {
         if (fragment != null) {
             //só não entra aqui se o Dispositivo não tiver pelo menos API 17
             if(!(position == 1 && OP_ATUAL != OP_MAPA)) {
-                FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction()
-                        .replace(R.id.frame_container, fragment).commit();
+                if (loc != null || OP_ATUAL == OP_HOME || OP_ATUAL == OP_SOBRE){
+                    FragmentManager fragmentManager = getFragmentManager();
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.frame_container, fragment).commit();
 
-                // update selected item and title, then close the drawer
-                mDrawerList.setItemChecked(position, true);
-                mDrawerList.setSelection(position);
-                setTitle(navDrawerItems.get(position).getTitle());
+                    // update selected item and title, then close the drawer
+                    mDrawerList.setItemChecked(position, true);
+                    mDrawerList.setSelection(position);
+                    setTitle(navDrawerItems.get(position).getTitle());
 
-                mDrawerLayout.closeDrawer(mDrawerList);
+                    mDrawerLayout.closeDrawer(mDrawerList);
 
-                if (position == 0) {
-                    requestLocationPermission();
-                    iniciaLocation();
-                } else if(position != 3 && position != 2) //quando limpa base de dados ou exporta dados, não precisa parar GPS
-                    lm.removeUpdates(this);
+                }else{
+                    Toast.makeText(this,"Aguarde a obtenção da sua localização!",Toast.LENGTH_SHORT).show();
+                }
             }
         }else {
             // error in creating fragment
@@ -417,8 +416,7 @@ public class Principal extends FragmentActivity implements LocationListener {
 
     @Override
     public void onLocationChanged(Location location) {
-        //TODO: atributo nessa classe que controle em qual opção estou. se não tiver na 0 nada será feito também! Talvez rever esta decisão devido as rotas do mapa
-        if(location != null && OP_ATUAL == OP_HOME){
+         if(location != null){
             try {
                 loc = location;  //localização global
                 DecimalFormat df = new DecimalFormat("0.00");

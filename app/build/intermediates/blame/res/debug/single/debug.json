@@ -12,12 +12,12 @@
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_quantum_ic_closed_caption_white_36.png.flat",
-        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/res/drawable-xxxhdpi-v4/quantum_ic_closed_caption_white_36.png"
-    },
-    {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_quantum_ic_closed_caption_white_36.png.flat",
+        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/res/drawable-xxxhdpi-v4/quantum_ic_closed_caption_white_36.png"
     },
     {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-nodpi-v4_cast_album_art_placeholder.png.flat",
@@ -44,16 +44,16 @@
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/res/drawable-mdpi-v4/quantum_ic_skip_previous_white_24.png"
     },
     {
-        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_skip_next_white_24.png.flat",
-        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/res/drawable-xhdpi-v4/quantum_ic_skip_next_white_24.png"
+        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_vol_type_speaker_group_light.png.flat",
+        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/res/drawable-mdpi-v4/ic_vol_type_speaker_group_light.png"
     },
     {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_quantum_ic_closed_caption_white_36.png.flat",
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/res/drawable-mdpi-v4/quantum_ic_closed_caption_white_36.png"
     },
     {
-        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_vol_type_speaker_group_light.png.flat",
-        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/res/drawable-mdpi-v4/ic_vol_type_speaker_group_light.png"
+        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_skip_next_white_24.png.flat",
+        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/res/drawable-xhdpi-v4/quantum_ic_skip_next_white_24.png"
     },
     {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_mr_button_disconnected_light.png.flat",
@@ -172,12 +172,12 @@
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/res/drawable-mdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6b7f95e0bd5b66557af0f7fc713b9d4c/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
-    },
-    {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6b7f95e0bd5b66557af0f7fc713b9d4c/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -200,24 +200,24 @@
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6125e97bf5649b221ea696f9f8e2f24a/res/color/wallet_secondary_text_holo_dark.xml"
     },
     {
-        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_mr_button_disconnected_dark.png.flat",
-        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/res/drawable-xhdpi-v4/ic_mr_button_disconnected_dark.png"
-    },
-    {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_mr_button_connected_14_dark.png.flat",
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/res/drawable-xhdpi-v4/ic_mr_button_connected_14_dark.png"
     },
     {
-        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_mr_button_connecting_04_dark.png.flat",
-        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/res/drawable-xhdpi-v4/ic_mr_button_connecting_04_dark.png"
+        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_mr_button_disconnected_dark.png.flat",
+        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/res/drawable-xhdpi-v4/ic_mr_button_disconnected_dark.png"
+    },
+    {
+        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/layout_abc_search_dropdown_item_icons_2line.xml.flat",
+        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_closed_caption_grey600_36.png.flat",
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/res/drawable-xhdpi-v4/quantum_ic_closed_caption_grey600_36.png"
     },
     {
-        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/layout_abc_search_dropdown_item_icons_2line.xml.flat",
-        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/res/layout/abc_search_dropdown_item_icons_2line.xml"
+        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_mr_button_connecting_04_dark.png.flat",
+        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/res/drawable-xhdpi-v4/ic_mr_button_connecting_04_dark.png"
     },
     {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/color-v23_abc_color_highlight_material.xml.flat",
@@ -316,12 +316,12 @@
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/res/layout-v11/notification_media_cancel_action.xml"
     },
     {
-        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat",
-        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png"
-    },
-    {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_quantum_ic_replay_10_white_24.png.flat",
@@ -356,12 +356,12 @@
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/res/drawable-xxhdpi-v4/ic_mr_button_connecting_09_dark.png"
     },
     {
-        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_cast_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/res/drawable-xhdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_quantum_ic_stop_grey600_48.png.flat",
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/res/drawable-xxxhdpi-v4/quantum_ic_stop_grey600_48.png"
+    },
+    {
+        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_cast_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/res/drawable-xhdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/anim_abc_popup_exit.xml.flat",
@@ -372,12 +372,12 @@
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/res/drawable-xhdpi-v4/ic_vol_type_tv_dark.png"
     },
     {
-        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_powered_by_google_light.png.flat",
-        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/4fa45bfa0ecd4b3460b22150f2f9bf20/res/drawable-mdpi-v4/powered_by_google_light.png"
-    },
-    {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_drawer.png.flat",
         "source": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/res/drawable-xhdpi/ic_drawer.png"
+    },
+    {
+        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_powered_by_google_light.png.flat",
+        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/4fa45bfa0ecd4b3460b22150f2f9bf20/res/drawable-mdpi-v4/powered_by_google_light.png"
     },
     {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -460,12 +460,12 @@
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/res/color-v23/abc_tint_spinner.xml"
     },
     {
-        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable_cast_ic_notification_skip_prev.xml.flat",
-        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/res/drawable/cast_ic_notification_skip_prev.xml"
-    },
-    {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable_abc_ic_clear_material.xml.flat",
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable_cast_ic_notification_skip_prev.xml.flat",
+        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/res/drawable/cast_ic_notification_skip_prev.xml"
     },
     {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_standard_color_18.png.flat",
@@ -508,12 +508,12 @@
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/res/drawable-xxhdpi-v4/ic_mr_button_connecting_21_dark.png"
     },
     {
-        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_audiotrack_light.png.flat",
-        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/res/drawable-hdpi-v4/ic_audiotrack_light.png"
-    },
-    {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_vol_type_speaker_light.png.flat",
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/res/drawable-xhdpi-v4/ic_vol_type_speaker_light.png"
+    },
+    {
+        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_audiotrack_light.png.flat",
+        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/res/drawable-hdpi-v4/ic_audiotrack_light.png"
     },
     {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-watch-v20_common_google_signin_btn_text_dark_normal.xml.flat",
@@ -688,12 +688,12 @@
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/res/drawable-hdpi-v4/quantum_ic_clear_white_24.png"
     },
     {
-        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_quantum_ic_stop_grey600_36.png.flat",
-        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/res/drawable-xxxhdpi-v4/quantum_ic_stop_grey600_36.png"
-    },
-    {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_mr_button_connected_20_light.png.flat",
         "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/res/drawable-xhdpi-v4/ic_mr_button_connected_20_light.png"
+    },
+    {
+        "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_quantum_ic_stop_grey600_36.png.flat",
+        "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/res/drawable-xxxhdpi-v4/quantum_ic_stop_grey600_36.png"
     },
     {
         "merged": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
