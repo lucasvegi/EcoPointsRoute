@@ -1,4 +1,4 @@
-lucas.vegi.coletapp
+lucas.vegi.ecopoints
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -441,6 +441,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color list_background
 color list_background_pressed
 color list_divider
@@ -852,6 +853,7 @@ drawable ic_group_expand_13
 drawable ic_group_expand_14
 drawable ic_group_expand_15
 drawable ic_home
+drawable ic_launcher_foreground
 drawable ic_media_pause_dark
 drawable ic_media_pause_light
 drawable ic_media_play_dark
@@ -1091,8 +1093,6 @@ id beginning
 id blurred_background_image_view
 id book_now
 id bottom
-id btDesfazer
-id btMarcar
 id button
 id buttonPanel
 id button_0
@@ -1143,7 +1143,6 @@ id donate_with
 id donate_with_google
 id drawer_layout
 id edit_query
-id edtNomeLocal
 id email
 id end
 id end_padder
@@ -1186,7 +1185,6 @@ id large_icon_uri
 id light
 id line1
 id line3
-id linearPosicao
 id listMode
 id list_item
 id list_slidermenu
@@ -1315,14 +1313,7 @@ id toolbar
 id top
 id topPanel
 id txtLabel
-id txtLabelLatitude
-id txtLabelLongitude
-id txtLabelPrecisao
-id txtLatitude
-id txtLongitude
 id txtNomeLocal
-id txtPosicionamento
-id txtPrecisao
 id up
 id url
 id useLogo
@@ -1414,6 +1405,7 @@ layout support_simple_spinner_dropdown_item
 menu main
 menu menu_splash
 mipmap ic_launcher
+mipmap ic_launcher_round
 string abc_action_bar_home_description
 string abc_action_bar_home_description_format
 string abc_action_bar_home_subtitle_description_format

@@ -104,7 +104,6 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant_run_merged_manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant_run_split_apk_resources" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javac" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint_jar" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifest-checker" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_jni_libs" />
@@ -193,11 +192,5 @@
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics:11.0.4@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-vision-common:11.0.4@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-fragment:26.0.0-alpha1@aar" level="project" />
-    <orderEntry type="module" module-name="poi-3.13-20150929" />
-    <orderEntry type="module" module-name="poi-3.13-20150929" />
-    <orderEntry type="module" module-name="poi-3.13-20150929" />
-    <orderEntry type="module" module-name="poi-3.13-20150929" />
-    <orderEntry type="module" module-name="poi-3.13-20150929" />
-    <orderEntry type="module" module-name="poi-3.13-20150929" />
   </component>
 </module>

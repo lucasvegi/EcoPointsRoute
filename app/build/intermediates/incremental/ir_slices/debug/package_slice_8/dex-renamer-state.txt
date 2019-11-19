@@ -1,4 +1,4 @@
-#Thu Nov 14 19:06:46 BRST 2019
+#Tue Nov 19 19:05:43 BRST 2019
 base.0=/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/transforms/dexMerger/debug/8
 path.0=classes.dex
 renamed.0=classes.dex

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="lucas.vegi.coletapp"
-    android:versionCode="2"
-    android:versionName="1.1" >
+    package="lucas.vegi.ecopoints"
+    android:versionCode="1"
+    android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="14"
+        android:minSdkVersion="17"
         android:targetSdkVersion="26" />
 
     <permission
-        android:name="lucas.vegi.coletapp.permission.MAPS_RECEIVE"
+        android:name="lucas.vegi.ecopoints.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
     <uses-permission android:name="lucas.vegi.coletapp.permission.MAPS_RECEIVE" />
@@ -40,17 +40,17 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="lucas.vegi.coletapp.permission.C2D_MESSAGE"
+        android:name="lucas.vegi.ecopoints.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="lucas.vegi.coletapp.permission.C2D_MESSAGE" />
+    <uses-permission android:name="lucas.vegi.ecopoints.permission.C2D_MESSAGE" />
 
     <meta-data
         android:name="android.support.VERSION"
         android:value="26.0.0-alpha1" />
 
     <application
-        android:name="lucas.vegi.coletapp.utils.MyApplication"
+        android:name="lucas.vegi.ecopoints.utils.MyApplication"
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
@@ -64,12 +64,12 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name="lucas.vegi.coletapp.Principal"
+            android:name="lucas.vegi.ecopoints.Principal"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="lucas.vegi.coletapp.Splash"
+            android:name="lucas.vegi.ecopoints.Splash"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar" >
@@ -176,7 +176,7 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             android:exported="true"
             android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
             <intent-filter>
-                <data android:scheme="tagmanager.c.lucas.vegi.coletapp" />
+                <data android:scheme="tagmanager.c.lucas.vegi.ecopoints" />
 
                 <action android:name="android.intent.action.VIEW" />
 
@@ -217,7 +217,7 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="lucas.vegi.coletapp" />
+                <category android:name="lucas.vegi.ecopoints" />
             </intent-filter>
         </receiver>
         <!--
@@ -241,12 +241,12 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="lucas.vegi.coletapp.firebaseinitprovider"
+            android:authorities="lucas.vegi.ecopoints.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="lucas.vegi.coletapp.com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="lucas.vegi.ecopoints.com.android.tools.ir.server.InstantRunContentProvider"
             android:multiprocess="true" />
     </application>
 

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="lucas.vegi.coletapp.test">
+    package="lucas.vegi.ecopoints.test">
 
-    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="26" />
+    <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="26" />
 
     <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="lucas.vegi.coletapp"
+                     android:targetPackage="lucas.vegi.ecopoints"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for lucas.vegi.coletapp"/>
+                     android:label="Tests for lucas.vegi.ecopoints"/>
 </manifest>

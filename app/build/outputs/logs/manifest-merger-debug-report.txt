@@ -71,7 +71,7 @@ INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main
 INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:2:1-100:12
 INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:2:1-100:12
 	package
-		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:3:5-34
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:3:5-35
 		INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -84,12 +84,12 @@ INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main
 		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:4:5-28
 		INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
-permission#lucas.vegi.coletapp.permission.MAPS_RECEIVE
+permission#lucas.vegi.ecopoints.permission.MAPS_RECEIVE
 ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:8:5-10:47
 	android:protectionLevel
 		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:10:9-44
 	android:name
-		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:9:9-67
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:9:9-68
 uses-permission#lucas.vegi.coletapp.permission.MAPS_RECEIVE
 ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:12:5-83
 	android:name
@@ -309,7 +309,7 @@ MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/lucasvegi/
 	android:theme
 		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:39:9-40
 	android:name
-		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:35:9-44
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:35:9-64
 meta-data#com.google.android.gms.version
 ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:42:9-44:69
 MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/b4b1c3c1eb9b5e702c6321e142b28a8e/AndroidManifest.xml:20:9-121
@@ -318,15 +318,15 @@ MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/lucasv
 		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:44:13-66
 	android:name
 		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:43:13-58
-activity#lucas.vegi.coletapp.Principal
+activity#lucas.vegi.ecopoints.Principal
 ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:46:9-50:20
 	android:screenOrientation
 		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:49:13-49
 	android:label
 		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:48:13-45
 	android:name
-		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:47:13-38
-activity#lucas.vegi.coletapp.Splash
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:47:13-58
+activity#lucas.vegi.ecopoints.Splash
 ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:52:9-63:20
 	android:screenOrientation
 		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:55:13-49
@@ -335,7 +335,7 @@ ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/An
 	android:theme
 		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:56:13-66
 	android:name
-		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:53:13-35
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:53:13-55
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:58:13-62:29
 action#android.intent.action.MAIN
@@ -638,7 +638,7 @@ ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/l
 		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:25:19-93
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.${applicationId}
 ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:26:13-31:29
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.lucas.vegi.coletapp
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.lucas.vegi.ecopoints
 ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:26:13-31:29
 data
 ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:27:17-71
@@ -698,7 +698,7 @@ ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/ca
 		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:24:72-107
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:24:17-71
-permission#lucas.vegi.coletapp.permission.C2D_MESSAGE
+permission#lucas.vegi.ecopoints.permission.C2D_MESSAGE
 ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:24:5-109
 	android:protectionLevel
 		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:24:72-107
@@ -708,7 +708,7 @@ uses-permission#${applicationId}.permission.C2D_MESSAGE
 ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:26:5-78
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:26:22-76
-uses-permission#lucas.vegi.coletapp.permission.C2D_MESSAGE
+uses-permission#lucas.vegi.ecopoints.permission.C2D_MESSAGE
 ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:26:5-78
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:26:22-76
@@ -722,7 +722,7 @@ ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/ca
 		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:30:19-84
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
 ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:31:13-34:29
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:lucas.vegi.coletapp
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:lucas.vegi.ecopoints
 ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:31:13-34:29
 action#com.google.android.c2dm.intent.RECEIVE
 ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:32:17-80
@@ -732,7 +732,7 @@ category#${applicationId}
 ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:33:17-60
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:33:27-58
-category#lucas.vegi.coletapp
+category#lucas.vegi.ecopoints
 ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:33:17-60
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:33:27-58
