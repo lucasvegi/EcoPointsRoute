@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        applicationId 'lucas.vegi.coletapp'
+        minSdkVersion 14
+        targetSdkVersion 26
+        versionCode 2
+        versionName '1.1'
+    }
+
+    //adicionado para corrigir - Error:Error: Expected resource of type styleable [ResourceType]
+    lintOptions {
+        disable "ResourceType"}
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:26.0.0-alpha1'
+    compile 'com.google.android.gms:play-services:11.0.4'
+    compile project(':poi-3.13-20150929')
+    implementation 'com.mcxiaoke.volley:library:1.0.0'
+}

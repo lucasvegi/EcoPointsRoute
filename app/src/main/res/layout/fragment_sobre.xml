@@ -1,0 +1,130 @@
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sobre"
+        android:id="@+id/txtSobre"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Sobre"
+    android:background="#FFFFFF" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutInternoSobre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/fundo_texto_sobre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignBottom="@+id/membrosEquipeSobre"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:alpha="0.8"
+                android:background="@drawable/roundshapebranco"
+                android:src="@drawable/roundshapebranco"
+                />
+
+            <TextView
+                android:id="@+id/versaoSobre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tituloSobre"
+                android:layout_centerHorizontal="true"
+                android:text="Versão ..."
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/infoUsuarios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/logoSobre"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="©2015 - 2017\nDepartamento de Informática\nUniversidade Federal de Viçosa"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tituloSobre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="ColetAPP"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/logoSobre"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_below="@+id/versaoSobre"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/equipeSobre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/infoUsuarios"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Desenvolvido por:"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/membrosEquipeSobre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/equipeSobre"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Prof. Lucas Francisco da Matta Vegi"
+                android:layout_marginBottom="15dp"
+                android:paddingBottom="15dp"
+                android:textColor="#000000" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayoutInternoSobre"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:src="@drawable/lab_profile"
+        android:onClick="sobreLabd2m"/>
+
+</RelativeLayout>
+

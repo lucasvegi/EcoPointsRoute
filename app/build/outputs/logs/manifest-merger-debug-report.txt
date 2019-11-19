@@ -1,0 +1,784 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:2:1-100:12
+INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:2:1-100:12
+INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:2:1-100:12
+INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:2:1-100:12
+MERGED from [com.google.android.gms:play-services:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/439f1f259d77ac9bb47929c5f2135ab0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-ads:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/3ca590d797033b5cf821b5648c29a5c9/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/66b97be763eefe0476af1f95e0cb9b65/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/999890e18ad4747beb2c5ff063bdfba9/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-tagmanager:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/9b6d07b96b6deb930f9a8099f9e00041/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6a3f3ca2da9e8880ee5cd176f20a864a/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/68d382239f95f54483a9f3e9954db5ea/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/cc104ee5380b461fb920123ec249025a/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/fde73a67fbe7da4f3060ae912ada7b4b/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/9e7a3fd1369ed4546fe36c061a47a1d1/AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/23f3f54022baf3a75b1ecf6a76eea3bc/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-cast:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2e2735f5895729d5bd4a35d8108130fd/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/64250530036c959f70b2f82110b3f7e0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-config:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/505ee369b0bfaba5fa08a84004695349/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-awareness:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/5cf750de4f8542516b657ed398597b17/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-games:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/22d615bddb9aba777d3ef683ea3692bc/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-drive:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/4ddb74fb1a322835b52ae7663c11ad87/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-auth:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/628f82e3b37e6e65194240aa47050fbe/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/81a7b9a103d2b69203a89d37e04f37a9/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-fitness:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/ac3c88dda809c466d5e758aa53d9339b/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/63655f84475aaf2245de65f2fc8aa9ca/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-appindexing:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/4f4bfa70d520f455f150edb2d9c6553e/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-wallet:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6125e97bf5649b221ea696f9f8e2f24a/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-identity:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/476a5ea169c64da837e79c7f9a76fd07/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/63379bd356f98142f9a844f21221d0e7/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-instantapps:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/24978dcfdb28e379e67334897d1942c0/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-location:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/5d3ce33cd9762ca36e15b24a2a18245b/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-places:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/4fa45bfa0ecd4b3460b22150f2f9bf20/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/23ee3346bcc0b2657b3fd6c8c4b618ac/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/8c7c0c7c015a68796a733d000e29d3c6/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-panorama:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/99840aeef3273dd0b25bed165c3e6dbb/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-plus:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/b152bba3450f35a802a15350d1445f15/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/bc0084dc530009e7a26ba9c7edbc3d92/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-vision:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/3dedd775abc6f192e008d115679dc125/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6aabf3d6bc7b088d6cc950bce743ccdb/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/62ecffe6fb0f504e5c1d9242259848e1/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6b7f95e0bd5b66557af0f7fc713b9d4c/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-crash:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/7329be281d771659eb7be2c37b6ab6db/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.firebase:firebase-database:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2071a725161d3a65dabfbaf6dd636c2d/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-database-connection:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/11df9391274fc87f077ce1d3371e7b8a/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/f86bee13e3fbe98593aa36924659804f/AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/307fec4726d683b65cedba7641a99844/AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-storage:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2b49eaa103e8f50d7cec60dc7c5e2390/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-storage-common:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/b7f99702b5d493dc6c0467937a794f29/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-common:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/081451993b39d14d8e01f56abc343e1c/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/fd904a9bffcb9ff219df923c4c8ba50c/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/48de383233cfba5a63cd6deeb9abcaf8/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/b4b1c3c1eb9b5e702c6321e142b28a8e/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6823a8b1ad0312e92276b5d3459625df/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2b426ff9bdc7e13d81cfdec78ef668f7/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/1dd4963eab8b94ed75af4c8f02b6f2ec/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/de9913408be960af3c69153a4b5be082/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/0f63ebd504a9c2d825a26f5364cb19e3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/53e76d90f34c6095f7496bbe18d64364/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/35e7d4be47a637f1716170c444395001/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/79a1d9bf13fc4e21eb13410e5219be73/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2c251dadf59f4030bdf66a383015548e/AndroidManifest.xml:17:1-31:12
+INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:2:1-100:12
+INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:2:1-100:12
+INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:2:1-100:12
+	package
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
+permission#lucas.vegi.coletapp.permission.MAPS_RECEIVE
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:8:5-10:47
+	android:protectionLevel
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:10:9-44
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:9:9-67
+uses-permission#lucas.vegi.coletapp.permission.MAPS_RECEIVE
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:12:5-83
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:12:22-80
+uses-permission#android.permission.INTERNET
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:13:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/66b97be763eefe0476af1f95e0cb9b65/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/66b97be763eefe0476af1f95e0cb9b65/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/999890e18ad4747beb2c5ff063bdfba9/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/999890e18ad4747beb2c5ff063bdfba9/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/68d382239f95f54483a9f3e9954db5ea/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/68d382239f95f54483a9f3e9954db5ea/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/cc104ee5380b461fb920123ec249025a/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/cc104ee5380b461fb920123ec249025a/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/63655f84475aaf2245de65f2fc8aa9ca/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/63655f84475aaf2245de65f2fc8aa9ca/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/63379bd356f98142f9a844f21221d0e7/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/63379bd356f98142f9a844f21221d0e7/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/23ee3346bcc0b2657b3fd6c8c4b618ac/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/23ee3346bcc0b2657b3fd6c8c4b618ac/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-crash:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/7329be281d771659eb7be2c37b6ab6db/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/7329be281d771659eb7be2c37b6ab6db/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/307fec4726d683b65cedba7641a99844/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/307fec4726d683b65cedba7641a99844/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:13:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:14:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/66b97be763eefe0476af1f95e0cb9b65/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/66b97be763eefe0476af1f95e0cb9b65/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/999890e18ad4747beb2c5ff063bdfba9/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/999890e18ad4747beb2c5ff063bdfba9/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/68d382239f95f54483a9f3e9954db5ea/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/68d382239f95f54483a9f3e9954db5ea/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/23ee3346bcc0b2657b3fd6c8c4b618ac/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/23ee3346bcc0b2657b3fd6c8c4b618ac/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/8c7c0c7c015a68796a733d000e29d3c6/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/8c7c0c7c015a68796a733d000e29d3c6/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/307fec4726d683b65cedba7641a99844/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/307fec4726d683b65cedba7641a99844/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:16:5-98
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:16:22-95
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:21:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/999890e18ad4747beb2c5ff063bdfba9/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/999890e18ad4747beb2c5ff063bdfba9/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/68d382239f95f54483a9f3e9954db5ea/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/68d382239f95f54483a9f3e9954db5ea/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/307fec4726d683b65cedba7641a99844/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/307fec4726d683b65cedba7641a99844/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:25:22-65
+uses-feature#0x00020000
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:27:5-29:36
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/23ee3346bcc0b2657b3fd6c8c4b618ac/AndroidManifest.xml:21:5-77
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/23ee3346bcc0b2657b3fd6c8c4b618ac/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:28:9-41
+	android:required
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:29:9-33
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:31:5-75
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:31:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:32:5-107
+	android:maxSdkVersion
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:32:78-104
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:32:22-77
+application
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:34:5-98:19
+MERGED from [com.google.android.gms:play-services:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/439f1f259d77ac9bb47929c5f2135ab0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/439f1f259d77ac9bb47929c5f2135ab0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/66b97be763eefe0476af1f95e0cb9b65/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/66b97be763eefe0476af1f95e0cb9b65/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/999890e18ad4747beb2c5ff063bdfba9/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/999890e18ad4747beb2c5ff063bdfba9/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6a3f3ca2da9e8880ee5cd176f20a864a/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6a3f3ca2da9e8880ee5cd176f20a864a/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/68d382239f95f54483a9f3e9954db5ea/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/68d382239f95f54483a9f3e9954db5ea/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/cc104ee5380b461fb920123ec249025a/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/cc104ee5380b461fb920123ec249025a/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/9e7a3fd1369ed4546fe36c061a47a1d1/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/9e7a3fd1369ed4546fe36c061a47a1d1/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2e2735f5895729d5bd4a35d8108130fd/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-cast:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2e2735f5895729d5bd4a35d8108130fd/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/64250530036c959f70b2f82110b3f7e0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/64250530036c959f70b2f82110b3f7e0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/505ee369b0bfaba5fa08a84004695349/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/505ee369b0bfaba5fa08a84004695349/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/5cf750de4f8542516b657ed398597b17/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/5cf750de4f8542516b657ed398597b17/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/22d615bddb9aba777d3ef683ea3692bc/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/22d615bddb9aba777d3ef683ea3692bc/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/4ddb74fb1a322835b52ae7663c11ad87/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/4ddb74fb1a322835b52ae7663c11ad87/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-auth:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/628f82e3b37e6e65194240aa47050fbe/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/628f82e3b37e6e65194240aa47050fbe/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/81a7b9a103d2b69203a89d37e04f37a9/AndroidManifest.xml:5:3-17
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/81a7b9a103d2b69203a89d37e04f37a9/AndroidManifest.xml:5:3-17
+MERGED from [com.google.android.gms:play-services-fitness:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/ac3c88dda809c466d5e758aa53d9339b/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-fitness:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/ac3c88dda809c466d5e758aa53d9339b/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/63655f84475aaf2245de65f2fc8aa9ca/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/63655f84475aaf2245de65f2fc8aa9ca/AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/4f4bfa70d520f455f150edb2d9c6553e/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/4f4bfa70d520f455f150edb2d9c6553e/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/476a5ea169c64da837e79c7f9a76fd07/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/476a5ea169c64da837e79c7f9a76fd07/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/63379bd356f98142f9a844f21221d0e7/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/63379bd356f98142f9a844f21221d0e7/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/5d3ce33cd9762ca36e15b24a2a18245b/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/5d3ce33cd9762ca36e15b24a2a18245b/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-places:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/4fa45bfa0ecd4b3460b22150f2f9bf20/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/4fa45bfa0ecd4b3460b22150f2f9bf20/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/23ee3346bcc0b2657b3fd6c8c4b618ac/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/23ee3346bcc0b2657b3fd6c8c4b618ac/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/8c7c0c7c015a68796a733d000e29d3c6/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/8c7c0c7c015a68796a733d000e29d3c6/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/99840aeef3273dd0b25bed165c3e6dbb/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/99840aeef3273dd0b25bed165c3e6dbb/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/b152bba3450f35a802a15350d1445f15/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/b152bba3450f35a802a15350d1445f15/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/bc0084dc530009e7a26ba9c7edbc3d92/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/bc0084dc530009e7a26ba9c7edbc3d92/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/3dedd775abc6f192e008d115679dc125/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/3dedd775abc6f192e008d115679dc125/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6aabf3d6bc7b088d6cc950bce743ccdb/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6aabf3d6bc7b088d6cc950bce743ccdb/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/62ecffe6fb0f504e5c1d9242259848e1/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/62ecffe6fb0f504e5c1d9242259848e1/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6b7f95e0bd5b66557af0f7fc713b9d4c/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6b7f95e0bd5b66557af0f7fc713b9d4c/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-crash:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/7329be281d771659eb7be2c37b6ab6db/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-crash:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/7329be281d771659eb7be2c37b6ab6db/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/f86bee13e3fbe98593aa36924659804f/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/f86bee13e3fbe98593aa36924659804f/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/307fec4726d683b65cedba7641a99844/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/307fec4726d683b65cedba7641a99844/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/081451993b39d14d8e01f56abc343e1c/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/081451993b39d14d8e01f56abc343e1c/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/fd904a9bffcb9ff219df923c4c8ba50c/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/fd904a9bffcb9ff219df923c4c8ba50c/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/48de383233cfba5a63cd6deeb9abcaf8/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/48de383233cfba5a63cd6deeb9abcaf8/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/b4b1c3c1eb9b5e702c6321e142b28a8e/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/b4b1c3c1eb9b5e702c6321e142b28a8e/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6823a8b1ad0312e92276b5d3459625df/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6823a8b1ad0312e92276b5d3459625df/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2b426ff9bdc7e13d81cfdec78ef668f7/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2b426ff9bdc7e13d81cfdec78ef668f7/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/1dd4963eab8b94ed75af4c8f02b6f2ec/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/1dd4963eab8b94ed75af4c8f02b6f2ec/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/de9913408be960af3c69153a4b5be082/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/de9913408be960af3c69153a4b5be082/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/0f63ebd504a9c2d825a26f5364cb19e3/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/0f63ebd504a9c2d825a26f5364cb19e3/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/53e76d90f34c6095f7496bbe18d64364/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/53e76d90f34c6095f7496bbe18d64364/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/35e7d4be47a637f1716170c444395001/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/35e7d4be47a637f1716170c444395001/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/79a1d9bf13fc4e21eb13410e5219be73/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/79a1d9bf13fc4e21eb13410e5219be73/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2c251dadf59f4030bdf66a383015548e/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2c251dadf59f4030bdf66a383015548e/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:38:9-41
+	android:icon
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:37:9-43
+	android:allowBackup
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:36:9-35
+	android:theme
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:39:9-40
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:35:9-44
+meta-data#com.google.android.gms.version
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:42:9-44:69
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/b4b1c3c1eb9b5e702c6321e142b28a8e/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/b4b1c3c1eb9b5e702c6321e142b28a8e/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:44:13-66
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:43:13-58
+activity#lucas.vegi.coletapp.Principal
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:46:9-50:20
+	android:screenOrientation
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:49:13-49
+	android:label
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:48:13-45
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:47:13-38
+activity#lucas.vegi.coletapp.Splash
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:52:9-63:20
+	android:screenOrientation
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:55:13-49
+	android:label
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:54:13-45
+	android:theme
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:56:13-66
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:53:13-35
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:58:13-62:29
+action#android.intent.action.MAIN
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:59:17-69
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:59:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:61:17-77
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:61:27-74
+receiver#com.google.android.gms.analytics.AnalyticsReceiver
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:66:9-72:20
+	android:enabled
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:68:13-35
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:67:13-78
+intent-filter#action:name:com.google.android.gms.analytics.ANALYTICS_DISPATCH
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:69:13-71:29
+action#com.google.android.gms.analytics.ANALYTICS_DISPATCH
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:70:17-93
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:70:25-91
+service#com.google.android.gms.analytics.AnalyticsService
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:73:9-76:39
+	android:enabled
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:75:13-35
+	android:exported
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:76:13-37
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:74:13-77
+receiver#com.google.android.gms.analytics.CampaignTrackingReceiver
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:79:9-86:20
+	android:enabled
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:82:13-35
+	android:exported
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:81:13-36
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:80:13-85
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:83:13-85:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:84:17-78
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:84:25-76
+service#com.google.android.gms.analytics.CampaignTrackingService
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:87:9-89:37
+	android:enabled
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:89:13-35
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:88:13-84
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:93:9-95:71
+	android:value
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:95:13-68
+	android:name
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml:94:13-62
+uses-sdk
+INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/439f1f259d77ac9bb47929c5f2135ab0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/439f1f259d77ac9bb47929c5f2135ab0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/3ca590d797033b5cf821b5648c29a5c9/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/3ca590d797033b5cf821b5648c29a5c9/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/66b97be763eefe0476af1f95e0cb9b65/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/66b97be763eefe0476af1f95e0cb9b65/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/999890e18ad4747beb2c5ff063bdfba9/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/999890e18ad4747beb2c5ff063bdfba9/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/9b6d07b96b6deb930f9a8099f9e00041/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/9b6d07b96b6deb930f9a8099f9e00041/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6a3f3ca2da9e8880ee5cd176f20a864a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6a3f3ca2da9e8880ee5cd176f20a864a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/68d382239f95f54483a9f3e9954db5ea/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/68d382239f95f54483a9f3e9954db5ea/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/cc104ee5380b461fb920123ec249025a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/cc104ee5380b461fb920123ec249025a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/fde73a67fbe7da4f3060ae912ada7b4b/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/fde73a67fbe7da4f3060ae912ada7b4b/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/9e7a3fd1369ed4546fe36c061a47a1d1/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/9e7a3fd1369ed4546fe36c061a47a1d1/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/23f3f54022baf3a75b1ecf6a76eea3bc/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/23f3f54022baf3a75b1ecf6a76eea3bc/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2e2735f5895729d5bd4a35d8108130fd/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2e2735f5895729d5bd4a35d8108130fd/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/64250530036c959f70b2f82110b3f7e0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/64250530036c959f70b2f82110b3f7e0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/505ee369b0bfaba5fa08a84004695349/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/505ee369b0bfaba5fa08a84004695349/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/5cf750de4f8542516b657ed398597b17/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/5cf750de4f8542516b657ed398597b17/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/22d615bddb9aba777d3ef683ea3692bc/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/22d615bddb9aba777d3ef683ea3692bc/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/4ddb74fb1a322835b52ae7663c11ad87/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/4ddb74fb1a322835b52ae7663c11ad87/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/628f82e3b37e6e65194240aa47050fbe/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/628f82e3b37e6e65194240aa47050fbe/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/81a7b9a103d2b69203a89d37e04f37a9/AndroidManifest.xml:3:3-41
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/81a7b9a103d2b69203a89d37e04f37a9/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-fitness:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/ac3c88dda809c466d5e758aa53d9339b/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-fitness:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/ac3c88dda809c466d5e758aa53d9339b/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/63655f84475aaf2245de65f2fc8aa9ca/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/63655f84475aaf2245de65f2fc8aa9ca/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/4f4bfa70d520f455f150edb2d9c6553e/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/4f4bfa70d520f455f150edb2d9c6553e/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6125e97bf5649b221ea696f9f8e2f24a/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6125e97bf5649b221ea696f9f8e2f24a/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/476a5ea169c64da837e79c7f9a76fd07/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/476a5ea169c64da837e79c7f9a76fd07/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/63379bd356f98142f9a844f21221d0e7/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/63379bd356f98142f9a844f21221d0e7/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/24978dcfdb28e379e67334897d1942c0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/24978dcfdb28e379e67334897d1942c0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/5d3ce33cd9762ca36e15b24a2a18245b/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/5d3ce33cd9762ca36e15b24a2a18245b/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-places:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/4fa45bfa0ecd4b3460b22150f2f9bf20/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/4fa45bfa0ecd4b3460b22150f2f9bf20/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/23ee3346bcc0b2657b3fd6c8c4b618ac/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/23ee3346bcc0b2657b3fd6c8c4b618ac/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/8c7c0c7c015a68796a733d000e29d3c6/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/8c7c0c7c015a68796a733d000e29d3c6/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/99840aeef3273dd0b25bed165c3e6dbb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/99840aeef3273dd0b25bed165c3e6dbb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/b152bba3450f35a802a15350d1445f15/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/b152bba3450f35a802a15350d1445f15/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/bc0084dc530009e7a26ba9c7edbc3d92/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/bc0084dc530009e7a26ba9c7edbc3d92/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/3dedd775abc6f192e008d115679dc125/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/3dedd775abc6f192e008d115679dc125/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6aabf3d6bc7b088d6cc950bce743ccdb/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6aabf3d6bc7b088d6cc950bce743ccdb/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/62ecffe6fb0f504e5c1d9242259848e1/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/62ecffe6fb0f504e5c1d9242259848e1/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6b7f95e0bd5b66557af0f7fc713b9d4c/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6b7f95e0bd5b66557af0f7fc713b9d4c/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/7329be281d771659eb7be2c37b6ab6db/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-crash:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/7329be281d771659eb7be2c37b6ab6db/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-database:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2071a725161d3a65dabfbaf6dd636c2d/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2071a725161d3a65dabfbaf6dd636c2d/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/11df9391274fc87f077ce1d3371e7b8a/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/11df9391274fc87f077ce1d3371e7b8a/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/f86bee13e3fbe98593aa36924659804f/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/f86bee13e3fbe98593aa36924659804f/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/307fec4726d683b65cedba7641a99844/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/307fec4726d683b65cedba7641a99844/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2b49eaa103e8f50d7cec60dc7c5e2390/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2b49eaa103e8f50d7cec60dc7c5e2390/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/b7f99702b5d493dc6c0467937a794f29/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/b7f99702b5d493dc6c0467937a794f29/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/081451993b39d14d8e01f56abc343e1c/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/081451993b39d14d8e01f56abc343e1c/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/fd904a9bffcb9ff219df923c4c8ba50c/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/fd904a9bffcb9ff219df923c4c8ba50c/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/48de383233cfba5a63cd6deeb9abcaf8/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/48de383233cfba5a63cd6deeb9abcaf8/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/b4b1c3c1eb9b5e702c6321e142b28a8e/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/b4b1c3c1eb9b5e702c6321e142b28a8e/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6823a8b1ad0312e92276b5d3459625df/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6823a8b1ad0312e92276b5d3459625df/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2b426ff9bdc7e13d81cfdec78ef668f7/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2b426ff9bdc7e13d81cfdec78ef668f7/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/1dd4963eab8b94ed75af4c8f02b6f2ec/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/1dd4963eab8b94ed75af4c8f02b6f2ec/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/de9913408be960af3c69153a4b5be082/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/de9913408be960af3c69153a4b5be082/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/0f63ebd504a9c2d825a26f5364cb19e3/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/0f63ebd504a9c2d825a26f5364cb19e3/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/53e76d90f34c6095f7496bbe18d64364/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/53e76d90f34c6095f7496bbe18d64364/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/35e7d4be47a637f1716170c444395001/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/35e7d4be47a637f1716170c444395001/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/79a1d9bf13fc4e21eb13410e5219be73/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/79a1d9bf13fc4e21eb13410e5219be73/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2c251dadf59f4030bdf66a383015548e/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2c251dadf59f4030bdf66a383015548e/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.2.0] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/66b97be763eefe0476af1f95e0cb9b65/AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/66b97be763eefe0476af1f95e0cb9b65/AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/66b97be763eefe0476af1f95e0cb9b65/AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/66b97be763eefe0476af1f95e0cb9b65/AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/cc104ee5380b461fb920123ec249025a/AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/cc104ee5380b461fb920123ec249025a/AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/cc104ee5380b461fb920123ec249025a/AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/cc104ee5380b461fb920123ec249025a/AndroidManifest.xml:20:19-50
+intent-filter#action:name:com.google.android.gms.appinvite.ACTION_PREVIEW+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/cc104ee5380b461fb920123ec249025a/AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/cc104ee5380b461fb920123ec249025a/AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/cc104ee5380b461fb920123ec249025a/AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/cc104ee5380b461fb920123ec249025a/AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/cc104ee5380b461fb920123ec249025a/AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/9e7a3fd1369ed4546fe36c061a47a1d1/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/9e7a3fd1369ed4546fe36c061a47a1d1/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/9e7a3fd1369ed4546fe36c061a47a1d1/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/9e7a3fd1369ed4546fe36c061a47a1d1/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/9e7a3fd1369ed4546fe36c061a47a1d1/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/9e7a3fd1369ed4546fe36c061a47a1d1/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/9e7a3fd1369ed4546fe36c061a47a1d1/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/9e7a3fd1369ed4546fe36c061a47a1d1/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/9e7a3fd1369ed4546fe36c061a47a1d1/AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/AndroidManifest.xml:7:18-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/63655f84475aaf2245de65f2fc8aa9ca/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/63379bd356f98142f9a844f21221d0e7/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/63379bd356f98142f9a844f21221d0e7/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:22:5-81
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/63655f84475aaf2245de65f2fc8aa9ca/AndroidManifest.xml:20:22-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6b7f95e0bd5b66557af0f7fc713b9d4c/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6b7f95e0bd5b66557af0f7fc713b9d4c/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6b7f95e0bd5b66557af0f7fc713b9d4c/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6b7f95e0bd5b66557af0f7fc713b9d4c/AndroidManifest.xml:19:19-85
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/f86bee13e3fbe98593aa36924659804f/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/f86bee13e3fbe98593aa36924659804f/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/f86bee13e3fbe98593aa36924659804f/AndroidManifest.xml:23:18-87
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/f86bee13e3fbe98593aa36924659804f/AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/f86bee13e3fbe98593aa36924659804f/AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/f86bee13e3fbe98593aa36924659804f/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/f86bee13e3fbe98593aa36924659804f/AndroidManifest.xml:25:25-75
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:25:118-142
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:25:94-117
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:25:19-93
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.${applicationId}
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:26:13-31:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.lucas.vegi.coletapp
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/17e76a5ca17988b3dba031eef064da6b/AndroidManifest.xml:30:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/307fec4726d683b65cedba7641a99844/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/307fec4726d683b65cedba7641a99844/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:27:17-104
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/307fec4726d683b65cedba7641a99844/AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/307fec4726d683b65cedba7641a99844/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/534eea8f2593cfdc4b17103f1aad4fc6/AndroidManifest.xml:33:16-90
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:24:17-71
+permission#lucas.vegi.coletapp.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:26:22-76
+uses-permission#lucas.vegi.coletapp.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:30:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:31:13-34:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:lucas.vegi.coletapp
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:33:27-58
+category#lucas.vegi.coletapp
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:43:18-82
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/850e750a255891167b58a2519d5d928a/AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/081451993b39d14d8e01f56abc343e1c/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/081451993b39d14d8e01f56abc343e1c/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/081451993b39d14d8e01f56abc343e1c/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/081451993b39d14d8e01f56abc343e1c/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.0.4] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/081451993b39d14d8e01f56abc343e1c/AndroidManifest.xml:6:79-143
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6823a8b1ad0312e92276b5d3459625df/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2b426ff9bdc7e13d81cfdec78ef668f7/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2b426ff9bdc7e13d81cfdec78ef668f7/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/1dd4963eab8b94ed75af4c8f02b6f2ec/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/1dd4963eab8b94ed75af4c8f02b6f2ec/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/0f63ebd504a9c2d825a26f5364cb19e3/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/0f63ebd504a9c2d825a26f5364cb19e3/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/53e76d90f34c6095f7496bbe18d64364/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/53e76d90f34c6095f7496bbe18d64364/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2c251dadf59f4030bdf66a383015548e/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2c251dadf59f4030bdf66a383015548e/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:support-v4:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6823a8b1ad0312e92276b5d3459625df/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:support-v4:26.0.0-alpha1] /Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6823a8b1ad0312e92276b5d3459625df/AndroidManifest.xml:26:9-47
