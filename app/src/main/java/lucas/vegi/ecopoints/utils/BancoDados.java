@@ -25,6 +25,7 @@ public final class BancoDados {
             "INSERT INTO Tipo (idTipo, nome) VALUES (1, 'Pilha');",
             "INSERT INTO Tipo (idTipo, nome) VALUES (2, 'Óleo');",
             "INSERT INTO Tipo (idTipo, nome) VALUES (3, 'Remédio');",
+            "INSERT INTO Tipo (idTipo, nome) VALUES (4, 'Pneu');",
             "INSERT INTO Ecopoint (idEcopoint, nome, latitude, longitude) VALUES (1, 'Quatro Pilastras', '-20.757360', '-42.875076');",
             "INSERT INTO Ecopoint (idEcopoint, nome, latitude, longitude) VALUES (2, 'No Bugs', '-20.762948', '-42.867008');",
             "INSERT INTO Ecopoint (idEcopoint, nome, latitude, longitude) VALUES (3, 'Biblioteca Central', '-20.761222', '-42.867780');",
@@ -46,7 +47,9 @@ public final class BancoDados {
             "INSERT INTO Ecopoint_Tipo (idTipo, idEcopoint) VALUES (3,3);",
             "INSERT INTO Ecopoint_Tipo (idTipo, idEcopoint) VALUES (3,5);",
             "INSERT INTO Ecopoint_Tipo (idTipo, idEcopoint) VALUES (3,2);",
-            "INSERT INTO Ecopoint_Tipo (idTipo, idEcopoint) VALUES (3,1);"};
+            "INSERT INTO Ecopoint_Tipo (idTipo, idEcopoint) VALUES (3,1);",
+            "INSERT INTO Ecopoint_Tipo (idTipo, idEcopoint) VALUES (4,3);",
+            "INSERT INTO Ecopoint_Tipo (idTipo, idEcopoint) VALUES (4,9);"};
 
     public static synchronized BancoDados getINSTANCE(Context ctx){
         if(INSTANCE == null)

@@ -246,8 +246,11 @@ public class MapaFragment extends Fragment implements OnMapReadyCallback {
         String destParam = destLatLng.latitude + "," + destLatLng.longitude;
 
         //Mesmo padrão de requisição do iOS
+        /*String url = "https://maps.googleapis.com/maps/api/directions/json?origin="+srcParam+"&destination="
+                + destParam + "&sensor=false&mode=driving&key=AIzaSyBGTXHLwlWkniIfGL6nneDq4bv8MIHv1Ao";*/
+
         String url = "https://maps.googleapis.com/maps/api/directions/json?origin="+srcParam+"&destination="
-                + destParam + "&sensor=false&mode=driving&key=AIzaSyC2vzuwOgPqc-bKKZZ_OykqsTYx6qRTTe8";
+                + destParam + "&key=AIzaSyBGTXHLwlWkniIfGL6nneDq4bv8MIHv1Ao";
 
 
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url,null,
