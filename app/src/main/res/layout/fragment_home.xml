@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF">
 
-    <!-- TODO: Desenhar esta tela conforme o projeto -->
+    <!-- TODO: Desenhar esta tela conforme o projeto - teste -->
     <TextView
         android:id="@+id/txtNomeLocal"
         android:layout_width="wrap_content"
