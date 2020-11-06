@@ -54,8 +54,9 @@
         android:name="lucas.vegi.ecopoints.utils.MyApplication"
         android:allowBackup="true"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/seleta"
         android:label="@string/app_name"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
 
         <!-- NECESSÁRIO ADICIONAR ESSA CONFIGURAÇÃO PARA INFORMAR A VERSÃO DO GOOGLE PLAY SERVICES UTILIZADA PARA COMPILAR O APP -->

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">EcoPoints Routes</string>
+    <string name="app_name">Seleta</string>
     <string name="action_settings">Configurações</string>
     <string name="hello_world">Hello world!</string>
     <string name="drawer_open">Slider Menu Opened</string>
@@ -24,6 +24,12 @@
         <item>@drawable/ic_action_import_export</item>
         <item>@drawable/ic_action_discard</item>
         <item>@drawable/ic_action_about</item>
+        <item>@drawable/pill_icon</item>
+        <item>@drawable/gasoline_icon</item>
+        <item>@drawable/lamp_icon</item>
+        <item>@drawable/oil_icon</item>
+        <item>@drawable/laptop_icon</item>
+        <item>@drawable/wheel_icon</item>
     </array>
     
     <!-- Content Description -->

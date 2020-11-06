@@ -1,10 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+            "outputFile": "C:\\Users\\Mirella\\AndroidStudioProjects\\EcoPointsRoute\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
                 {
-                    "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/res/values-v14/values-v14.xml",
+                    "source": "C:\\Users\\Mirella\\AndroidStudioProjects\\EcoPointsRoute\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "227",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "361"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Mirella\\.gradle\\caches\\transforms-2\\files-2.1\\834438d10bf9c44b6d12d09d71680809\\res\\values-v14\\values-v14.xml",
                     "from": {
                         "startLines": "2,7,8,9,15,21,22,23,24,25,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -20,25 +39,6 @@
                         "endLines": "9,10,11,17,23,24,25,26,27,30,31,32",
                         "endColumns": "12,70,82,12,12,119,131,119,62,12,62,131",
                         "endOffsets": "463,534,617,1027,1449,1569,1701,1821,1884,2038,2101,2233"
-                    }
-                },
-                {
-                    "source": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/src/main/res/values-v14/styles.xml",
-                    "from": {
-                        "startLines": "7",
-                        "startColumns": "4",
-                        "startOffsets": "220",
-                        "endLines": "9",
-                        "endColumns": "12",
-                        "endOffsets": "352"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "187"
                     }
                 }
             ]

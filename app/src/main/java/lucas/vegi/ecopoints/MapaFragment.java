@@ -90,10 +90,24 @@ public class MapaFragment extends Fragment implements OnMapReadyCallback {
                 //usado para traçar as rotas
                 mDestinationLatLng.add(new LatLng(latitude,longitude));
 
-                if(descricao != null)
-                    mapa.addMarker(new MarkerOptions().position(posicao).title(nome).snippet(descricao));
-                else
-                    mapa.addMarker(new MarkerOptions().position(posicao).title(nome));
+                if(descricao != null) {
+                    addMarker(posicao.latitude,
+                            posicao.longitude,
+                            nome,
+                            descricao,
+                            BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
+                            //TODO: local para alterar os marcadores dos ecopoints
+
+                    //mapa.addMarker(new MarkerOptions().position(posicao).title(nome).snippet(descricao));
+                }else {
+                    addMarker(posicao.latitude,
+                            posicao.longitude,
+                            nome,
+                            BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
+                            //TODO: local para alterar os marcadores dos ecopoints
+
+                    //mapa.addMarker(new MarkerOptions().position(posicao).title(nome));
+                }
             }
             c.close();
 
@@ -290,6 +304,7 @@ public class MapaFragment extends Fragment implements OnMapReadyCallback {
                                         Principal.loc.getLongitude(),
                                         "Minha Localização",
                                         BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
+                                        //TODO: Aqui podemos mudar a cor do marcador da posiçào do usuário
 
                                 Log.d("Rota", "Pontos na rota: " + path.size());
 
@@ -386,6 +401,15 @@ public class MapaFragment extends Fragment implements OnMapReadyCallback {
         return mapa.addMarker(new MarkerOptions()
                 .position(new LatLng(lat,lng))
                 .title(text)
+                .icon(cor)
+                .flat(false));
+    }
+
+    private Marker addMarker(double lat, double lng, String text, String description, BitmapDescriptor cor ) {
+        return mapa.addMarker(new MarkerOptions()
+                .position(new LatLng(lat,lng))
+                .title(text)
+                .snippet(description)
                 .icon(cor)
                 .flat(false));
     }

@@ -48,27 +48,27 @@
                 android:src="@drawable/roundshapebranco"
                 />
 
-            <TextView
-                android:id="@+id/versaoSobre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/tituloSobre"
-                android:layout_centerHorizontal="true"
-                android:text="Versão ..."
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="#000000" />
+        <TextView
+            android:id="@+id/versaoSobre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tituloSobre"
+            android:layout_centerHorizontal="true"
+            android:text="Versão 1.0"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000" />
 
-            <TextView
-                android:id="@+id/infoUsuarios"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/logoSobre"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="1dp"
-                android:gravity="center_vertical|center_horizontal"
-                android:text="©2019\nDepartamento de Informática\nUniversidade Federal de Viçosa"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="#000000" />
+        <TextView
+            android:id="@+id/infoUsuarios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logoSobre"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="©2020\nEngenharia de Agrimensura e Cartográfica\nUniversidade Federal de Viçosa"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000" />
 
             <TextView
                 android:id="@+id/tituloSobre"
@@ -77,18 +77,18 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="15dp"
-                android:text="@string/app_name"
+                android:text="Seleta"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="#000000"
                 android:textStyle="bold" />
 
-            <ImageView
-                android:id="@+id/logoSobre"
-                android:layout_width="150dp"
-                android:layout_height="130dp"
-                android:layout_below="@+id/versaoSobre"
-                android:layout_centerHorizontal="true"
-                android:src="@mipmap/ic_launcher" />
+        <ImageView
+            android:id="@+id/logoSobre"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/versaoSobre"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/seleta" />
 
             <TextView
                 android:id="@+id/equipeSobre"
@@ -102,17 +102,17 @@
                 android:textColor="#000000"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/membrosEquipeSobre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/equipeSobre"
-                android:layout_centerHorizontal="true"
-                android:gravity="center_vertical|center_horizontal"
-                android:text="Prof. Lucas Francisco da Matta Vegi"
-                android:layout_marginBottom="15dp"
-                android:paddingBottom="15dp"
-                android:textColor="#000000" />
+        <TextView
+            android:id="@+id/membrosEquipeSobre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/equipeSobre"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingBottom="15dp"
+            android:text="Prof. Lucas Francisco da Matta Vegi\nLuís Felipe Santos Nascimento\nMirella Faccini Collodetti"
+            android:textColor="#000000" />
 
     </RelativeLayout>
 

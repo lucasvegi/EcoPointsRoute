@@ -114,9 +114,20 @@ public class Principal extends FragmentActivity implements LocationListener {
                 int indexIdTipo = c.getColumnIndex("idTipo");
                 int indexNome = c.getColumnIndex("nome");
 
-                navDrawerItems.add(new NavDrawerItem(c.getString(indexNome), c.getInt(indexIdTipo), navMenuIcons.getResourceId(1, -1)));
+                if (c.getString(indexIdTipo).equals("1")) {
+                    navDrawerItems.add(new NavDrawerItem(c.getString(indexNome), c.getInt(indexIdTipo), navMenuIcons.getResourceId(7, -1)));
+                } else if (c.getString(indexIdTipo).equals("2")) {
+                    navDrawerItems.add(new NavDrawerItem(c.getString(indexNome), c.getInt(indexIdTipo), navMenuIcons.getResourceId(8, -1)));
+                } else if (c.getString(indexIdTipo).equals("3")) {
+                    navDrawerItems.add(new NavDrawerItem(c.getString(indexNome), c.getInt(indexIdTipo), navMenuIcons.getResourceId(5, -1)));
+                } else if (c.getString(indexIdTipo).equals("4")) {
+                    navDrawerItems.add(new NavDrawerItem(c.getString(indexNome), c.getInt(indexIdTipo), navMenuIcons.getResourceId(6, -1)));
+                } else if (c.getString(indexIdTipo).equals("5")) {
+                    navDrawerItems.add(new NavDrawerItem(c.getString(indexNome), c.getInt(indexIdTipo), navMenuIcons.getResourceId(9, -1)));
+                }
             }
             c.close();
+
             // SOBRE
             navDrawerItems.add(new NavDrawerItem("Sobre o App", navMenuIcons.getResourceId(4, -1)));
         }catch (Exception e){

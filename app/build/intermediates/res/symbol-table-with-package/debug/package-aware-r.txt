@@ -806,6 +806,7 @@ drawable common_google_signin_btn_text_light_normal_background
 drawable counter_bg
 drawable fundobotao
 drawable fundobotaopadrao
+drawable gasoline_icon
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_action_about
@@ -853,6 +854,7 @@ drawable ic_group_expand_13
 drawable ic_group_expand_14
 drawable ic_group_expand_15
 drawable ic_home
+drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_media_pause_dark
 drawable ic_media_pause_light
@@ -970,6 +972,8 @@ drawable ic_vol_type_tv_dark
 drawable ic_vol_type_tv_light
 drawable ic_whats_hot
 drawable lab_profile
+drawable lamp_icon
+drawable laptop_icon
 drawable list_item_bg_normal
 drawable list_item_bg_pressed
 drawable list_selector
@@ -1003,6 +1007,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable oil_icon
+drawable pill_icon
 drawable places_ic_clear
 drawable places_ic_search
 drawable powered_by_google_dark
@@ -1051,6 +1057,7 @@ drawable quantum_ic_volume_up_white_36
 drawable roundshape_botaopadrao
 drawable roundshape_botaopress
 drawable roundshapebranco
+drawable wheel_icon
 id action0
 id action_bar
 id action_bar_activity_content
@@ -1406,6 +1413,9 @@ menu main
 menu menu_splash
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap ic_name
+mipmap name
+mipmap seleta
 string abc_action_bar_home_description
 string abc_action_bar_home_description_format
 string abc_action_bar_home_subtitle_description_format

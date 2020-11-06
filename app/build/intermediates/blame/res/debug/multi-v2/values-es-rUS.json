@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml",
+            "outputFile": "C:\\Users\\Mirella\\AndroidStudioProjects\\EcoPointsRoute\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rUS\\values-es-rUS.xml",
             "map": [
                 {
-                    "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/2e2735f5895729d5bd4a35d8108130fd/res/values-es-rUS/values.xml",
-                    "from": {
-                        "startLines": "4,5,6",
-                        "startColumns": "0,0,0",
-                        "startOffsets": "292,443,595",
-                        "endColumns": "150,151,94",
-                        "endOffsets": "442,594,689"
-                    },
-                    "to": {
-                        "startLines": "37,38,39",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "3812,3963,4115",
-                        "endColumns": "150,151,98",
-                        "endOffsets": "3958,4110,4209"
-                    }
-                },
-                {
-                    "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/b4b1c3c1eb9b5e702c6321e142b28a8e/res/values-es-rUS/values.xml",
+                    "source": "C:\\Users\\Mirella\\.gradle\\caches\\transforms-2\\files-2.1\\fc66ce49cddd24a1abe71f1773196f28\\res\\values-es-rUS\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/4fa45bfa0ecd4b3460b22150f2f9bf20/res/values-es-rUS/values.xml",
+                    "source": "C:\\Users\\Mirella\\.gradle\\caches\\transforms-2\\files-2.1\\436dc5b965c01c4a4cb41d080c18564b\\res\\values-es-rUS\\values.xml",
                     "from": {
                         "startLines": "4,5",
                         "startColumns": "0,0",
@@ -55,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/3ca590d797033b5cf821b5648c29a5c9/res/values-es-rUS/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9",
-                        "startColumns": "0,0,0,0,0,0",
-                        "startOffsets": "241,312,446,511,577,664",
-                        "endColumns": "70,133,64,65,86,119",
-                        "endOffsets": "311,445,510,576,663,783"
-                    },
-                    "to": {
-                        "startLines": "97,98,99,100,101,102",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "10937,11012,11150,11219,11289,11380",
-                        "endColumns": "74,137,68,69,90,123",
-                        "endOffsets": "11007,11145,11214,11284,11375,11499"
-                    }
-                },
-                {
-                    "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dbfb30d7732d2decb138aa974c056e4f/res/values-es-rUS/values.xml",
+                    "source": "C:\\Users\\Mirella\\.gradle\\caches\\transforms-2\\files-2.1\\afa281bd3b0e192f42dc85128d099844\\res\\values-es-rUS\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -89,7 +55,41 @@
                     }
                 },
                 {
-                    "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/dc8972db2e71f8547158e40a83ed9c27/res/values-es-rUS/values-es-rUS.xml",
+                    "source": "C:\\Users\\Mirella\\.gradle\\caches\\transforms-2\\files-2.1\\41e131db3b0741764580f0f0917c2532\\res\\values-es-rUS\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9",
+                        "startColumns": "0,0,0,0,0,0",
+                        "startOffsets": "241,312,446,511,577,664",
+                        "endColumns": "70,133,64,65,86,119",
+                        "endOffsets": "311,445,510,576,663,783"
+                    },
+                    "to": {
+                        "startLines": "97,98,99,100,101,102",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "10937,11012,11150,11219,11289,11380",
+                        "endColumns": "74,137,68,69,90,123",
+                        "endOffsets": "11007,11145,11214,11284,11375,11499"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Mirella\\.gradle\\caches\\transforms-2\\files-2.1\\6f60897bdd2ba4cfde7b0da2bf4ecd13\\res\\values-es-rUS\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "292,443,595",
+                        "endColumns": "150,151,94",
+                        "endOffsets": "442,594,689"
+                    },
+                    "to": {
+                        "startLines": "37,38,39",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "3812,3963,4115",
+                        "endColumns": "150,151,98",
+                        "endOffsets": "3958,4110,4209"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Mirella\\.gradle\\caches\\transforms-2\\files-2.1\\03101c48d4562e47304d4a173b334fdf\\res\\values-es-rUS\\values-es-rUS.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -106,7 +106,7 @@
                     }
                 },
                 {
-                    "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6125e97bf5649b221ea696f9f8e2f24a/res/values-es-rUS/values.xml",
+                    "source": "C:\\Users\\Mirella\\.gradle\\caches\\transforms-2\\files-2.1\\f26d763c321f7a41b06ddfbd88667273\\res\\values-es-rUS\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -123,7 +123,7 @@
                     }
                 },
                 {
-                    "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/6b7f95e0bd5b66557af0f7fc713b9d4c/res/values-es-rUS/values.xml",
+                    "source": "C:\\Users\\Mirella\\.gradle\\caches\\transforms-2\\files-2.1\\1f45515d9969b4231e8536937359088d\\res\\values-es-rUS\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -140,7 +140,7 @@
                     }
                 },
                 {
-                    "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/res/values-es-rUS/values-es-rUS.xml",
+                    "source": "C:\\Users\\Mirella\\.gradle\\caches\\transforms-2\\files-2.1\\834438d10bf9c44b6d12d09d71680809\\res\\values-es-rUS\\values-es-rUS.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

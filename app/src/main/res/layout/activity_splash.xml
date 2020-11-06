@@ -2,25 +2,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="lucas.vegi.ecopoints.Splash"
-    android:background="#e3e3e3">
+    android:background="#000000"
+    tools:context="lucas.vegi.ecopoints.Splash">
+
 
     <ImageView
         android:id="@+id/imgLogo"
-        android:layout_width="150dp"
-        android:layout_height="130dp"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:src="@mipmap/ic_launcher" />
+        android:layout_width="match_parent"
+        android:layout_height="448dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="0dp"
+        android:src="@mipmap/ic_name" />
 
     <TextView
+        android:id="@+id/idProgressoSplash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text=""
-        android:id="@+id/idProgressoSplash"
         android:layout_below="@+id/imgLogo"
         android:layout_centerHorizontal="true"
-        android:textStyle="bold"/>
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
 
 </RelativeLayout>

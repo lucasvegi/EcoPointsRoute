@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/lucasvegi/AndroidStudioProjects/EcoPointsRoute/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "outputFile": "C:\\Users\\Mirella\\AndroidStudioProjects\\EcoPointsRoute\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/lucasvegi/.gradle/caches/transforms-2/files-2.1/c04ea905bb88c8e65fb8669d0bc90924/res/values-large-v4/values-large-v4.xml",
+                    "source": "C:\\Users\\Mirella\\.gradle\\caches\\transforms-2\\files-2.1\\834438d10bf9c44b6d12d09d71680809\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
